@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>Student Registration Form</title>
+    
+</head>
+<body>
+    <div class="container">
+        <center><h2>Student Registration Form</h2></center>
+        <hr>
+        <form action="./submit.html" method="post" class="registration-form" name="Register">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" placeholder="Enter your full name"><br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter valid email address"><br>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter password"><br>
+            <br>
+            <label>Gender:</label>
+            <span class="gender-group">
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </span><br>
+            <br>
+            <label for="course">Course:</label>
+            <select id="course">
+                <option value="">-- Select Course --</option>
+                <option value="btech">B.Tech</option>
+                <option value="bsc">B.Sc</option>
+                <option value="bcom">B.Com</option>
+                <option value="ba">B.A</option>
+            </select><br>
+            <br>
+            <label for="contact">Contact No:</label>
+            <input type="tel" id="contact" placeholder="Enter phone number"><br>
+            <br>
+            <label for="address">Address:</label><br>
+            <textarea id="address" placeholder="Enter your address" rows="3" cols="40"></textarea><br>
+            <br>
+            <button type="submit">Register</button>
+            <button type="reset">Clear</button>
+        </form>
+        <hr>
+        <center><div class="footer">
+            &copy; 2025 Student Registration Portal
+        </div></center>
+    </div>
+</body>
+</html>
