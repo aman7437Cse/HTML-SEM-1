@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #1e293b;
+    color: white;
+}
+
+.navbar nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar nav a:hover {
+    text-decoration: underline;
+}
+
+
+.calendar-container {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.month {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+
+.day {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #e2e8f0;
+}
+
+
+.date {
+    height: 100px;
+    background-color: #f8fafc;
+    border: 1px solid #cbd5e1;
+    padding: 10px;
+    text-align: right;
+}
+
+.date:hover {
+    background-color: #bfdbfe;
+    cursor: pointer;
+}
+.disabled {
+    color: gray;
+    background-color: #e5e7eb;
+}
+
+
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1e293b;
+    color: white;
+    margin-top: 40px;
+}
