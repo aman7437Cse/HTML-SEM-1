@@ -1,0 +1,45 @@
+
+ Block Example */
+header {
+display: block;
+background: lightgray;
+padding: 10px;
+text-align: center;
+}
+/* Inline Example */
+header span {
+display: inline;
+color: red;
+}
+/* Inline-block Navigation */
+.inline-block-menu ul {
+list-style: none;
+padding: 0;
+}
+.inline-block-menu li {
+display: inline-block;
+margin-right: 10px;
+}
+.inline-block-menu a {
+text-decoration: none;
+padding: 5px;
+background: lightblue;
+}
+/* Float Navigation */
+.float-menu ul {
+list-style: none;
+padding: 0;
+}
+.float-menu li {
+float: left;
+margin-right: 10px;*
+}
+.float-menu a {
+text-decoration: none;
+padding: 5px;
+background: lightgreen;
+}
+/* Clear Example */
+.clear {
+clear: both;
+}
