@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple E-Commerce Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* Header */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Product Section */
+        .container {
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .product {
+            background-color: white;
+            width: 250px;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            height: 180px;
+        }
+
+        .product h3 {
+            margin: 10px 0;
+        }
+
+        .product p {
+            color: green;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .product button {
+            background-color: #e67e22;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .product button:hover {
+            background-color: #d35400;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>My Online Store</h1>
+    <p>Best Products at Best Prices</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+    <div class="product">
+        <img src="/image1.jpg" alt="Product 1">
+        <h3>Apple Macbook M4</h3>
+        <p>₹59999</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="/image5.jpg" alt="Product 2">
+        <h3>Apple Iphone 17 pro </h3>
+        <p>₹144499</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="/image3.jpg" alt="Product 3">
+        <h3>Apple Headset</h3>
+        <p>₹55599</p>
+        <button>Add to Cart</button>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 My Online Store | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
