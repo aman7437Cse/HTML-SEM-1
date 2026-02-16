@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Form</title>
+</head>
+<body style="font-family: Arial, sans-serif; background: linear-gradient(to right, #74ebd5, #ACB6E5); margin: 0; padding: 0;">
+
+    <h2 style="text-align: center; color: #333; padding: 20px;">Feedback Form</h2>
+
+    <form action="submit_feedback.php" method="post" 
+          style="max-width: 500px; margin: auto; background: #fff; padding: 25px; 
+                 border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+
+       
+        <label for="name" style="font-weight: bold; color: #444;">Name:</label><br>
+        <input type="text" id="name" name="name" required 
+               style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 6px;"><br>
+
+        
+        <label for="email" style="font-weight: bold; color: #444;">Email:</label><br>
+        <input type="email" id="email" name="email" required 
+               style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 6px;"><br>
+
+     
+        <label for="rating" style="font-weight: bold; color: #444;">Rating (1 to 5):</label><br>
+        <select id="rating" name="rating" required 
+                style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 6px;">
+            <option value="">Select</option>
+            <option value="1">1 - Poor</option>
+            <option value="2">2 - Fair</option>
+            <option value="3">3 - Good</option>
+            <option value="4">4 - Very Good</option>
+            <option value="5">5 - Excellent</option>
+        </select><br>
+
+        
+        <label for="comment" style="font-weight: bold; color: #444;">Comments:</label><br>
+        <text area id="comment" name="comment" rows="4" required 
+                  style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 6px;"></textarea><br>
+
+        
+        <input type="submit" value="Submit Feedback" 
+               style="width: 100%; background-color: #4CAF50; color: white; 
+                      padding: 12px; border: none; border-radius: 6px; 
+                      cursor: pointer; font-size: 16px; font-weight: bold;">
+    </form>
+
+</body>
+</html>
